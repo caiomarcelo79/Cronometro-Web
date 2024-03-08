@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{   
+    background-color: rgb(200, 200, 200);
+    color: rgb(30, 30, 30);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: black-white;
+    animation-duration: 0.5s;
+}
+
+@keyframes black-white{
+    from{
+        background-color: rgb(30, 30, 30);
+        color: rgb(200, 200, 200);
+    }
+
+    to{
+        background-color: rgb(200, 200, 200);
+        color: rgb(30, 30, 30);
+    }
+}
+
+body.dark{
+    background-color: rgb(30, 30, 30);
+    color: rgb(200, 200, 200);
+    animation-name: white-black;
+    animation-duration: 0.5s;
+
+}
+
+@keyframes white-black{
+    from{
+        background-color: rgb(200, 200, 200);
+        color: rgb(30, 30, 30);
+    }
+
+    to{
+        background-color: rgb(30, 30, 30);
+        color: rgb(200, 200, 200);
+    }
+}
+
+
+
+img{
+    width: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(150, 150, 150, 0.417);
+}
+
+.header>h1{
+    text-align: center;
+    font-size: 9vw;
+}
+
+.header>div{
+    text-align: right;
+    margin-right: 10px;
+}
+  
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20vw;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+}
+
+.btn-green{
+    background-color: rgb(54, 236, 54);
+}
+
+.btn-red{
+    background-color: rgb(236, 54, 54);
+}
+
+.btn-orange{
+    background-color: rgb(236, 160, 54);
+}
+
+button{
+    font-size: 22px;
+    border-radius: 20%;
+    padding: 10px 20px;
+}

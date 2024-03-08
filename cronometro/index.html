@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronômetro</title>
+
+    <link rel="stylesheet" href="timer.css">
+    
+
+</head>
+<body>
+    <header class="header">
+        <h1>Cronômetro</h1>
+
+        <div>
+            <img onclick="change()" id="troca" src="sun-moon.png" alt="">
+        </div>
+    </header>
+
+    
+
+    <div class="timer">
+        <span id="hour1">0</span><span id="hour">0</span><span>:</span><span id="minute1">0</span><span id="minute">0</span><span>:</span><span id="second1">0</span><span id="second">0</span>
+    </div>
+
+    
+
+    <section>
+
+        <div class="btn">
+            <button class="btn-green" onclick="Start()">Start!!</button>
+            <button class="btn-red" onclick="Stop()">Stop!!</button>
+            <button class="btn-orange" onclick="Reset()">Reset!!</button>
+        </div>
+
+    </section>
+
+    <script src="dark_mode.js"></script>
+    <script src="timer.js"></script>
+
+</body>
+</html>
