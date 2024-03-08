@@ -1,2 +1,1 @@
-# Cronometro-Web
- html-css-js
+# Projeto quase finalizado, contém bugs, futuramente será consertado
