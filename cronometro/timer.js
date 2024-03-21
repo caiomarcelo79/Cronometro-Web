@@ -49,18 +49,30 @@ function counter(){
     
 }
 
-
+var i = 0;
 
 function Start(){
 
-    intervalo = setInterval(counter, 1000);
-
-
+    if(i == 0){
+        intervalo = setInterval(counter, 1000);
+        
+        i = i + 1;
+        console.log(i);
+        return i;
+    }
+    
 }
 
 function Stop(){
 
-    clearInterval(intervalo);
+    
+    if(i == 1){
+        clearInterval(intervalo);
+
+        i = i - 1
+        console.log(i);
+        return i;
+    }
 
 }
 

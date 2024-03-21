@@ -1,1 +1,1 @@
-# Projeto quase finalizado, contém bugs, futuramente será consertado
+# Projeto finalizado
