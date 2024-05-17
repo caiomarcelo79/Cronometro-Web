@@ -1,3 +1,3 @@
 # Projeto finalizado
 
-# Link para o projeto: https://calculadora79.netlify.app/
+# Link para o projeto: https://cronometro79.netlify.app/
